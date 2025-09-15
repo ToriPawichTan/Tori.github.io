@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who DO You Think is Better?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Who Do You Think is a Better Shooter</h1>
+   <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="curry.html">Curry</a>
+    <a href="allen.html">Allen</a>
+    <a href="form.html">Form</a>
+  </div>
+  </header>
+
+  <section>
+    <h2>Submit The Better Shooter</h2>
+    <form action="submission.html" method="POST">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <label for="player">Better Shooter:</label><br>
+    <select id="player" name="player" required>
+    <option value="">Select a player</option>
+    <option value="curry">Stephen Curry</option>
+    <option value="allen">Ray Allen</option>
+    </select><br><br>
+    
+      <label for="message">Message / Comment:</label><br>
+      <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here"></textarea><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+</body>
+</html>

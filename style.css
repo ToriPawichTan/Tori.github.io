@@ -1,0 +1,41 @@
+.navbar {
+  background-color: rgb(255, 230, 0);   
+  padding: 20px;             
+  text-align: center;     
+}
+
+.navbar a {
+  color: #000000;                 
+  text-decoration: none;     
+  margin: 0 15px;            
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: rgb(206, 0, 0);              
+}
+
+body {
+  margin: 20px;
+}
+table, th, td {
+  border:1px solid black;
+}
+
+@media screen and (max-width: 600px){
+    
+    .column {
+        width: 100%;
+    }
+  }    
+
+  .link a {
+    color: red;
+     font-family: Arial, sans-serif;
+     font-weight: bold;
+  }
+  
+  .link a:hover {
+    color: darkgreen;
+  }
